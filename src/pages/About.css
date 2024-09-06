@@ -1,0 +1,111 @@
+body {
+  font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+  }
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #61dafb;
+    color: #fff;
+    border-radius: 8px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+ 
+  .our-mission {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .our-mission h2 {
+    font-size: 2rem;
+    color: #61dafb;
+    margin-bottom: 20px;
+  }
+  
+  .our-mission p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .values-section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .values-section h2 {
+    font-size: 2rem;
+    color: #61dafb;
+    margin-bottom: 20px;
+  }
+  
+  .values-section ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+  }
+  
+  .values-section li {
+    margin: 15px 0;
+    color: #555;
+  }
+  
+  .values-section li strong {
+    color: #333;
+  }
+  
+  .team-section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .team-section h2 {
+    font-size: 2rem;
+    color: #61dafb;
+    margin-bottom: 20px;
+  }
+  
+  .team-section p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-section p, 
+    .our-mission p,
+    .team-section p {
+      font-size: 1rem;
+    }
+  }
+  
